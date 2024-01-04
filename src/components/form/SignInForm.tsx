@@ -56,6 +56,10 @@ const SignInForm = () => {
     } else {
       router.refresh();
       router.push('/admin');
+      toast({
+        title: "Success",
+        description: "You Login",
+      })
     }
   };
 
